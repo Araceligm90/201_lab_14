@@ -74,8 +74,9 @@ function showCart() {
 function removeItemFromCart(event) {
 
   // TODO: When a delete link is clicked, use cart.removeItem to remove the correct item
-  // TODO: Save the cart back to local storage
-  // TODO: Re-draw the cart table
+
+  state.cart.saveToLocalStorage();
+  showCart();
 
 }
 
