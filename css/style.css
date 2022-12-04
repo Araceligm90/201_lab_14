@@ -1,1 +1,51 @@
 /* TODO: Make it awesome */
+
+body {
+    background-color:#03b6fc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+nav {
+    background-color: #fcd303;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+li {
+    display: inline;
+}
+
+li:hover {
+    color:  #2f5ebde5;
+
+}
+
+#catalog {
+    background-color: gold;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+legend {
+    text-align: center;
+}
+
+ol {
+    margin: 50px;
+}
+
+footer {
+    margin-top: 300px;
+    text-align: center;
+}
